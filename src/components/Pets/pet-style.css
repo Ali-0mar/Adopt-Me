@@ -4,13 +4,16 @@
     display: block;
     overflow: hidden;
     margin: 25px 0;
-    /* border-bottom: #333 2px solid; */
+    border-bottom: #333 2px solid;
 }
 
-h3 {
+.pet h1 {
     white-space: nowrap;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 30px;
+    color: #333;
+    width: 95%;
+    overflow: hidden;
     margin: 0;
     text-overflow: ellipsis;
 }
@@ -21,6 +24,27 @@ h3 {
     color: #333;
     width: 95%;
     overflow: hidden;
-    margin: 0;
+    margin: auto;
     text-overflow: ellipsis;
+}
+.pet img {
+    width: 100px;
+    min-height: 100px;
+}
+
+.info {
+    float: left;
+    width: 80%;
+    height: 100px;
+    padding-top: 10px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.image-container {
+    clip-path: circle(50% at 50% 50%);
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 0px 20px 0px 10px;
 }
